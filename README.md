@@ -1,4 +1,59 @@
-## CS150/250 C++ Template
+# CS250 Intro to CSII [IC - RationalSet]
+
+## RationalSet Class Design
+
+<b>Problem:</b> A RationalSet contains a set of Rational numbers.
+
+---
+<b>Task #1: </b> Design a UML diagram.
+
+Create a class called **RationalSet** that is capable of holding a set of 0 or more Rational numbers.
+
+    RationalSet
+    --
+    -macRationals : Rational[]
+    -mSize : int
+    --
+    +RationalSet()
+    +size() : int
+    +add(const Rational &) : void
+    +write(ostream &) const : void
+
+---
+<b>Task #2: </b> Convert the UML diagram.
+
+Create a file called **RationalSet.h** that will represent the converted UML diagram. The location for RationalSet.h is to be in the **include** folder.
+
+---
+<b>Task #3: </b> Implement the RationalSet functions.
+
+Create a file called **RationalSet.cpp** that is the definition for the functions in RationalSet.h. The location for RationalSet.cpp is to be in the "src" folder.
+
+---
+<b>Task #4: </b> Modify main.cpp
+
+In main.cpp you are to add a statement **#include "../include/RationalSet.h"** after all other #include statements. Then create a RationalSet object. Compile and execute your program showing me the results.
+
+---
+<b>Task #5: </b> Implement the function prototypes declared in RationalSet.h one at a time & test. Modify main.cpp such that your program works as follows. 
+
+    *** Rational Calculator ***
+
+    Enter rational #1: 1/2
+    Enter rational #2: 2/3
+
+
+    1 / 2 + 2 / 3 = 7 / 6
+    1 / 2 * 2 / 3 = 2 / 6
+
+    Rational Set: {}
+    Adding : 1 / 2
+    Rational Set: {1 / 2}
+    Adding : 2 / 3
+    Rational Set: {1 / 2 2 / 3}
+
+    Program Completed
+---
 
 ## Commands
 
