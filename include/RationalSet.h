@@ -13,7 +13,6 @@ class RationalSet {
     int size () const;
     void add (const Rational &rcRational);
     void write (ostream &rcOut) const;
-    bool read (istream &rcIn);
 
   private:
     Rational macRationals[MAX_RATIONALS];
